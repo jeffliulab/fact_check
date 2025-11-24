@@ -3,6 +3,10 @@
 *.pem
 *.crt
 
+# Tufts Related Files & Internal Files
+内部文件
+backup
+
 
 # Output directory for saved HTML files
 output/
