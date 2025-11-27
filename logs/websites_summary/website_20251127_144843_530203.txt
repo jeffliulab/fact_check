@@ -1,0 +1,72 @@
+URL: https://en.wikipedia.org/wiki/ISO_3166-1
+Timestamp: 2025-11-27T14:48:43.531583
+Content Type: summary
+Content Length: 3000 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close
+Jump to content
+Main menu
+Search
+Donate
+Create account
+Log in
+Contents hide
+(Top)
+Criteria for inclusion
+Information included
+Naming and code construction
+Toggle Naming and code construction subsection
+Naming and disputes
+Coding
+Codes
+Toggle Codes subsection
+Reserved and user-assigned code elements
+User-assigned codes in wide use
+Changes
+See also
+Notes
+References
+Sources and external links
+ISO 3166-1
+119 languages
+Article
+Talk
+Read
+Edit
+View history
+Tools
+Appearance hide
+From Wikipedia, the free encyclopedia
+
+ISO 3166-1 (Codes for the representation of names of countries and their subdivisions – Part 1: Country code) is a standard defining codes for the names of countries, dependent territories, and special areas of geographical interest. It is the first part of the ISO 3166 standard published by the International Organization for Standardization.
+
+It defines three sets of country codes:[1]
+
+ISO 3166-1 alpha-2 – two-letter country codes which are used most prominently for the Internet's country code top-level domains (with a few exceptions).
+ISO 3166-1 alpha-3 – three-letter country codes which allow a better visual association between the codes and the country names than the alpha-2 codes.
+ISO 3166-1 numeric – three-digit country codes which are identical to those developed and maintained by the United Nations Statistics Division, with the advantage of script (writing system) independence, and hence useful for people or systems using non-Latin scripts.
+
+The alphabetic country codes were first included in ISO 3166 in 1974, and the numeric country codes were first included in 1981. The country codes have been published as ISO 3166-1 since 1997, when ISO 3166 was expanded into three parts, with ISO 3166-2 defining codes for subdivisions and ISO 3166-3 defining codes for former countries.[1]
+
+As a widely used international standard, ISO 3166-1 is implemented in other standards and used by international organizations[1] to allow facilitation of the exchange of goods and information.[1] However, it is not the only standard for country codes. Other country codes used by many international organizations are partly or totally incompatible with ISO 3166-1,[1] although some of them closely correspond to ISO 3166-1 codes.
+
+Find a country
+Enter an ISO 3166-1 alpha-2 code to find the corresponding country article.
+
+ 
+Criteria for inclusion[edit]
+
+Codes for 249 countries, territories, or areas of geographical interest are assigned in ISO 3166-1.[2] According to the ISO 3166 Maintenance Agency (ISO 3166/MA), the only way to enter a new country name into ISO 3166-1 is to have it registered in one of the following two sources:[1]
+
+United Nations Terminology Bulletin Country Names, or
+Country and Region Codes for Statistical Use of the United Nations Statistics Division.
+
+To be listed in the bulletin Country 

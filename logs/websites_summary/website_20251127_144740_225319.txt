@@ -1,0 +1,65 @@
+URL: https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area
+Timestamp: 2025-11-27T14:47:40.225949
+Content Type: summary
+Content Length: 3000 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close
+Jump to content
+Main menu
+Search
+Donate
+Create account
+Log in
+Contents hide
+(Top)
+Countries and dependencies by area
+See also
+Notes
+References
+External links
+List of countries and dependencies by area
+117 languages
+Article
+Talk
+Read
+View source
+View history
+Tools
+Appearance hide
+From Wikipedia, the free encyclopedia
+"List of largest countries" redirects here. For the largest countries by population, see List of countries and dependencies by population.
+Dymaxion map of the world with the 30 largest countries and territories by area
+
+This is a list of the world's countries and their dependencies, ranked by total area, including land and water.
+
+This list includes entries that are not limited to those in the ISO 3166-1 standard, which covers sovereign states and dependent territories. All 193 member states of the United Nations plus the two observer states are given a rank number. Largely unrecognised states not in ISO 3166-1 are included in the list in ranked order. The areas of such largely unrecognised states are in most cases also included in the areas of the more widely recognised states that claim the same territory; see the notes in the "Notes" column for each country for clarification.
+
+Not included in the list are individual country claims to parts of the continent of Antarctica or entities such as the European Union[a] that have some degree of sovereignty but do not consider themselves to be sovereign countries or dependent territories.
+
+This list includes three measurements of area:
+
+Total area: the sum of land and water areas within international boundaries and coastlines.
+Land area: the aggregate of all land within international boundaries and coastlines, excluding water area.
+Water area: the sum of the surface areas of all inland water bodies (lakes, reservoirs, and rivers) within international boundaries and coastlines.[2] Coastal internal waters may be included. Territorial seas are not included unless otherwise noted. Contiguous zones and exclusive economic zones are not included.
+
+Total area is taken from the United Nations Statistics Division unless otherwise noted.[3] Land and water are taken from the Food and Agriculture Organization unless otherwise noted.[4] The CIA World Factbook is most often used when different UN departments disagree.[1] Other sources and details for each entry may be specified in the relevant footnote.
+
+Countries of the world by area (legend in km2)
+Countries and dependencies by area
+	Country / dependency	Total
+in km2 (mi2)	Land
+in km2 (mi2)	Water
+in km2 (mi2)	%
+water	
+–	 Earth	510,072,000 (196,940,000)	148,940,000 (57,506,000)	361,132,000 (139,434,000)	70.8	
+1	 Russia	17,098,246 (6,601,667)	16,376,870 (6,323,142)	721,380 (278,530)	4.2	[b]
+–	 Antarctica	14,200,000 (5,480,000)	14,200,000 (5,480,000)	0	0	[c]
+2	 Canada	9,984,670 (3,855,100)	9,093,507 (3

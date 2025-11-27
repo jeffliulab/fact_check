@@ -1,0 +1,8 @@
+{
+  "timestamp": "2025-11-27T14:37:56.961341",
+  "url": "https://en.wikipedia.org/wiki/Flag_of_China",
+  "content_background": "[AI]\nSummary and Facts Check\n\nThe national flag of the People's Republic of China, known as the Five-star Red Flag, features a red field with one large golden star and four smaller stars arranged in an arc. It was adopted on October 1, 1949, marking the establishment of the People's Republic. The design symbolizes the unity of the Chinese people under the leadership of the Communist Party. The article also discusses the historical flags of China, including the Yellow Dragon Flag and the Five-Col",
+  "feedback_content": "Flag of China is correct.",
+  "feedback_type": "fact",
+  "feedback_prove": "This is correct."
+}

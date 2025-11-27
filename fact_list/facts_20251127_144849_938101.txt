@@ -1,0 +1,19 @@
+URL: https://en.wikipedia.org/wiki/ISO_3166-1
+Timestamp: 2025-11-27T14:48:49.938445
+================================================================================
+
+Total Facts: 11
+
+Facts to Check:
+
+1. ISO 3166-1 is a standard defining codes for the names of countries, dependent territories, and special areas of geographical interest.
+2. ISO 3166-1 defines three sets of country codes: ISO 3166-1 alpha-2, ISO 3166-1 alpha-3, and ISO 3166-1 numeric.
+3. The alphabetic country codes were first included in ISO 3166 in 1974, and the numeric country codes were first included in 1981.
+4. The country codes have been published as ISO 3166-1 since 1997, when ISO 3166 was expanded into three parts.
+5. ISO 3166-1 is implemented in other standards and used by international organizations.
+6. Codes for 249 countries, territories, or areas of geographical interest are assigned in ISO 3166-1.
+7. The only way to enter a new country name into ISO 3166-1 is to have it registered in the United Nations Terminology Bulletin Country Names or the Country and Region Codes for Statistical Use of the United Nations Statistics Division.
+8. The ISO 3166/MA may reserve code elements for other entities that do not qualify for inclusion based on the above criteria.
+9. The ISO 3166/MA has reserved the two-letter combination EU for the purpose of identifying the European Union within the framework of ISO 3166-1.
+10. The country names used in ISO 3166-1 are taken from the two UN sources, some of which are disputed.
+11. The codes are chosen to reflect the significant, unique component of the country name in order to allow a visual association between country name and country code.

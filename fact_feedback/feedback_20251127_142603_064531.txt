@@ -1,0 +1,7 @@
+{
+  "timestamp": "2025-11-27T14:26:03.064594",
+  "url": "https://en.wikipedia.org/wiki/James_Milliken_(academic_administrator)",
+  "content_preview": "[AI]\nSummary and Facts Check\n\nJames B. Milliken, born in 1957, is an American academic administrator currently serving as the 22nd president of the University of California, starting August 2025. He has held several prominent positions, including chancellor of the University of Texas and the City University of New York, and president of the University of Nebraska system. Milliken holds a BA from the University of Nebraska–Lincoln and a JD from New York University. Before his administrative caree",
+  "feedback_type": "suspicious_fact",
+  "feedback_text": "I don't know this guy, OK? So I think there must be some suspecious content here."
+}
