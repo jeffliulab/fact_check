@@ -1,3 +1,7 @@
+# log files
+fact_feedback
+fact_list
+
 # key files
 *.key
 *.pem
@@ -7,6 +11,10 @@
 内部文件
 backup
 内部文件（二期）
+内部文件（三期）
+
+# venv
+.venv
 
 
 # Output directory for saved HTML files

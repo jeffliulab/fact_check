@@ -1,0 +1,14 @@
+URL: https://us-u.openx.net/w/1.0/cm?id=dc2068a3-fa3d-4b5f-8a61-3d5a1a58fc05&ph=21f03281-5b83-4670-a0e0-dc15f7542014&r=https%3A%2F%2Fce.lijit.com%2Fmerge%3Fpid%3D76%263pid%3D%7BOPENX_ID%7D&gdpr=&gdpr_consent=
+Timestamp: 2025-11-30T16:15:27.251190
+Content Type: facts
+Content Length: 157 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close

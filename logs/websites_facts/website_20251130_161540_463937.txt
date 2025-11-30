@@ -1,0 +1,14 @@
+URL: https://ads.pubmatic.com/AdServer/js/user_sync.html?p=159463&userIdMacro=PM_UID&predirect=https%3A%2F%2Fcs.media.net%2Fcksync.php%3Fcs%3D8%26type%3Dpba%26gdpr%3D0%26gdpr_consent%3D%26ovsid%3DPM_UID
+Timestamp: 2025-11-30T16:15:40.464089
+Content Type: facts
+Content Length: 157 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close

@@ -1,0 +1,15 @@
+URL: https://accounts.google.com/gsi/button?theme=outline&size=large&type=icon&shape=square&is_fedcm_supported=false&client_id=581578578984-i9dcmr3vcac6rik30t9lpclmps5dsltr.apps.googleusercontent.com&iframe_id=gsi_382134_883691&cas=wIc0kbdBC9t1ggWXDtta2LmpuZ5IEic1Qt2lcB2K7A0
+Timestamp: 2025-11-30T16:16:33.698795
+Content Type: summary
+Content Length: 164 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close
+8000 0

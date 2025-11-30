@@ -1,0 +1,209 @@
+URL: https://en.wikipedia.org/wiki/FIDE_titles
+Timestamp: 2025-11-30T16:08:27.436352
+Content Type: facts
+Content Length: 15000 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close
+Jump to content
+Main menu
+Search
+Donate
+Create account
+Log in
+Contents hide
+(Top)
+History
+Open titles
+Toggle Open titles subsection
+Grandmaster (GM)
+International Master (IM)
+FIDE Master (FM)
+Candidate Master (CM)
+Women's titles
+Toggle Women's titles subsection
+Woman Grandmaster (WGM)
+Woman International Master (WIM)
+Woman FIDE Master (WFM)
+Woman Candidate Master (WCM)
+FIDE Online Arena (FOA) titles
+Arbiters, trainers, and organizers
+See also
+References
+External links
+FIDE titles
+18 languages
+Article
+Talk
+Read
+Edit
+View history
+Tools
+Appearance hide
+From Wikipedia, the free encyclopedia
+Magnus Carlsen is a Grandmaster.
+
+FIDE titles are awarded by the international chess governing body FIDE (Fédération Internationale des Échecs) for outstanding performance. The highest such title is Grandmaster (GM). Titles generally require a combination of Elo rating and norms (performance benchmarks in competitions including other titled players). Once awarded, titles are held for life except in cases of fraud or cheating. Open titles may be earned by all players, while women's titles are restricted to female players. Many strong female players hold both open and women's titles. FIDE also awards titles for arbiters, organizers and trainers. Titles for correspondence chess, chess problem composition and chess problem solving are no longer administered by FIDE.
+
+A chess title, usually in an abbreviated form, may be used as an honorific. For example, Magnus Carlsen may be styled as "GM Magnus Carlsen".
+
+History[edit]
+
+The term "master" for a strong chess player was initially used informally. From the late 19th century and onwards, various national chess federations began to draw up formal requirements for the use of such a title. The term "Grandmaster", in the form of the German loan word Großmeister, was a formal title in the Soviet Union, and had also been in informal use for the world's elite players for several decades before its institution by FIDE in 1950.[1] FIDE's first titles were awarded in 1950 and consisted of 27 Grandmasters, 94 International Masters, and 17 Woman International Masters, known at the time simply as Woman Masters.[2]
+
+FIDE's first grandmasters were:
+
+Ossip Bernstein (France)
+Isaac Boleslavsky (USSR)
+Igor Bondarevsky (USSR)
+Mikhail Botvinnik (USSR)
+David Bronstein (USSR)
+Oldřich Duras (Czechoslovakia)
+Max Euwe (Netherlands)
+Reuben Fine (USA)
+Salo Flohr (USSR)
+Ernst Grünfeld (Austria)
+Paul Keres (USSR)
+Boris Kostić (Yugoslavia)
+Alexander Kotov (USSR)
+Grigory Levenfish (USSR)
+Andor Lilienthal (USSR)
+Géza Maróczy (Hungary)
+Jacques Mieses (England)
+Miguel Najdorf (Argentina)
+Viacheslav Ragozin (USSR)
+Samuel Reshevsky (USA)
+Akiba Rubinstein (Poland)
+Friedrich Sämisch (West Germany)
+Vasily Smyslov (USSR)
+Gideon Ståhlberg (Sweden)
+László Szabó (Hungary)
+Savielly Tartakower (France)
+Milan Vidmar (Yugoslavia)
+
+The titles were awarded by a vote of the FIDE Congress before the requirements became more formalized. In 1957, FIDE introduced norms (qualifying standards) for FIDE titles.[3] FIDE introduced a higher women only title, that of Woman Grandmaster (WGM) in 1976. In 1978 the subordinate titles of FIDE Master (FM) and Woman FIDE master (WFM) were introduced, followed in 2002 by the titles of Candidate Master (CM) and Woman Candidate Master (WCM). Similar titles are awarded by the International Correspondence Chess Federation, and by the World Federation for Chess Composition for both composing and solving chess problems.[4] These bodies work in cooperation with FIDE but are now independent of it.
+
+Open titles[edit]
+Open titles, September 2025[5]
+Title	Men	Women	Total
+Grandmaster (GM)	1,823	44	1,867
+International Master (IM)	4,081	140	4,221
+FIDE Master (FM)	9,327	68	9,395
+FIDE Candidate Master (CM)	3,346	29	3,375
+Total	18,577	281	18,858
+
+The titles of Grandmaster, International Master, FIDE Master and Candidate Master are available to all over-the-board chess players. The requirements for each title have varied over time, but generally require having demonstrated a prescribed level of achievement in tournaments at classical time controls under FIDE-approved conditions.
+
+Grandmaster (GM) [edit]
+Main article: Grandmaster (chess)
+
+The title Grandmaster is awarded to outstanding chess players by FIDE. Apart from World Champion, Grandmaster is the highest title a chess player can attain. In chess literature it is usually abbreviated to GM. The abbreviation IGM for "International Grandmaster" is occasionally seen, usually in older literature.
+
+The usual way to obtain the title is to achieve three Grandmaster-level performances (called norms), along with a FIDE rating of 2500 or more. The precise definition of a GM norm is complex and has frequently been amended, but in general a grandmaster norm is defined as a performance rating of at least 2600 over 9 or more rounds. In addition, the field must have an average rating of at least 2380, must include at least three grandmasters, and must include players from a mix of national federations.[6]
+
+The title may also be awarded directly without going through the usual norm requirements in a few high-level tournaments, provided the player has a FIDE rating of over 2300. These include:
+
+Reaching the final 16 in the FIDE World Cup
+Winning the Women's Chess World Cup
+Winning the Women's World Championship
+Winning the World Junior Championship (U20)
+Winning the World Senior Championship, both in the 50+ and 65+ divisions
+Winning a Continental (e.g. Pan American, European, Asian or African) championship[7]
+
+Beginning with Nona Gaprindashvili in 1978, a number of women have earned the GM title. Since about 2000, most of the top 10 women have held the GM title. This should not be confused with the Woman Grandmaster (WGM) title.
+
+At 12 years, 4 months and 25 days, Abhimanyu Mishra became the youngest person ever to qualify for the Grandmaster title in July 2021. The record was previously held by Sergey Karjakin at 12 years, 7 months for 19 years, Judit Polgár at 15 years and 4 months, and Bobby Fischer at 15 years, 6 months and 1 day for 33 years.[8]
+
+International Master (IM)[edit]
+"International Master" redirects here. For the snooker tournament formerly known under this name, see British Open (snooker).
+
+The title International Master is awarded to strong chess players who are below the level of grandmaster. Instituted along with the Grandmaster title in 1950, it is usually abbreviated as IM in chess literature.
+
+Like the grandmaster title, the usual way to obtain the title is to achieve three required title norms over 27 or more games and a FIDE rating of 2400 or more. In general, an IM norm is defined as a performance rating of at least 2450 over 9 or more games. In addition, the field must have an average rating of at least 2230, must include at least three International Masters or Grandmasters, and must include players from a mix of national federations.[7]
+
+There are also several ways the IM title can be awarded directly without going through the usual norm process, provided the player has a rating of at least 2200. From July 2017, these are as follows:
+
+Qualifying for the FIDE World Cup
+Finishing second in the Women's World Championship
+Finishing second or third in the World Junior Championship (U20)
+Finishing second or third in the World Senior Championship, in both the over 50 and over 65 divisions
+Winning (outright or shared) the World Youth Championship (U18)
+Winning the World Youth Championship (U16) outright
+Finishing second or third in a Continental championship
+Winning (outright or shared) a Continental over 50 championship, over 65 championship, or under 20 championship
+Winning a Continental under 18 championship outright
+Winning a sub-Continental championship
+Winning a Commonwealth, Francophone or Ibero-American championship
+Winning a World Championship for People with Disabilities[9]
+
+After becoming an IM, most professional players set their next goal to becoming a Grandmaster. It is also possible to become a Grandmaster without ever having been an International Master. Larry Christiansen of the United States (1977), Wang Hao of China, Anish Giri of the Netherlands, Olga Girya of Russia (2021) and former world champions Mikhail Tal of the Soviet Union and Vladimir Kramnik of Russia all became Grandmasters without ever having been IMs. Bobby Fischer of the United States attained both titles solely by virtue of qualifying for the 1958 Interzonal (IM title) and 1959 Candidates Tournament (GM title), only incidentally becoming IM before GM. The more usual path is first to become an IM, then move on to the GM level.
+
+On 25 May 2025, Roman Shogdzhiev became the youngest International Master at the age of 10 years, 3 months, and 21 days after playing in the RadnickiChess May IM Round Robin in Belgrade, Serbia, scoring 7/9 points. Previously breaking the record of Faustino Oro by over 5 months.[10]
+
+FIDE Master (FM) [edit]
+
+Introduced in 1978 along with WFM,[11] FM ranks below the title of International Master but ahead of Candidate Master. Unlike the Grandmaster and International Master titles, there is no requirement for a player to achieve norms.
+
+The usual way for a player to qualify for the FIDE Master title is by achieving an Elo rating of 2300 or more.[7] There are also many ways the title can be gained by players with a rating of at least 2100 but less than 2300; they include:
+
+Winning the World Youth Championship (U14 and U12)
+Finishing second or third in the World Youth Championship (U18 and U16)
+Finishing second or third in a Continental over 50, over 65, under 20, or under 18 championship
+Scoring 65% or more over at least 9 games at an olympiad
+Winning a Continental under 12, under 14, or under 16 championship
+Finishing second or third in a Commonwealth, Francophone, or Ibero-American championship
+
+The youngest player to be awarded the FM title is Alekhine Nouri from Philippines who was awarded the title after winning the 14th ASEAN Age Group Chess Championships 2013 in Thailand at age seven.[12]
+
+The youngest player to gain the FM title by achieving an Elo rating of 2300 is Faustino Oro from Argentina who, when he was nine, hit 2314 Elo rating after participating in the ITT Ajedrez Martelli Jovenes Talentos 2023.[13]
+
+Candidate Master (CM) [edit]
+
+Introduced in 2002 along with WCM,[14] the usual way for a player to qualify for the Candidate Master title is by achieving an Elo rating of 2200 or more. For players rated over 2000 but under 2200, there are many other ways to gain the title; they include:
+
+Finishing first, second, or third in the World Youth Championship (U8 and U10)
+Finishing second or third in a Continental under 12, under 14, or under 16 championship
+Finishing second or third in the World Youth Championship (U14 and U12)
+Scoring 50% or more over at least 7 games at an olympiad or other special events
+
+In case a player achieves the CM title through the Olympiad performance, the minimum required rating of 2000 does not apply, after the title regulations update effective from January 1st, 2024.[15]
+
+Prior to 2018, there was no minimum rating requirement, and coming in the top three of an U8 continental tournament was acceptable. As a result, there are a number of CMs with far lower ratings than 2000.[16]
+
+Women's titles[edit]
+Women's titles, September 2025[17]
+Title	Total
+Woman Grandmaster (WGM)	335
+Woman International Master (WIM)	905
+Woman FIDE Master (WFM)	2,115
+Woman Candidate Master (WCM)	1,257
+Total	4,612
+
+Though the open FIDE titles are not gender-segregated, the following four titles given by FIDE are exclusive to women and may be held simultaneously with an open title. The requirements for these titles are about 200 Elo rating points lower than the requirements for the similarly named open titles. These titles are sometimes criticized by both male and female players, and some female players elect not to take them. For example, Grandmaster Judit Polgár, in keeping with her policy of playing only open competitions, never took a women's title.[18] FIDE strips trans men of any women's titles they might have earned while competing as a woman.[19][20][21]
+
+Woman Grandmaster (WGM) [edit]
+
+Woman Grandmaster is the highest-ranking chess title restricted to women. FIDE introduced the WGM title in 1976, joining the previously introduced lower-ranking title, Woman International Master.[22]
+
+The usual way to obtain the WGM title is similar to the open titles, where a FIDE rating of 2300 and three norms of 2400 performance rating is required against opponents who are higher rated than 2130 on average.[23] The winner of the World Girls Junior Championship and some other tournaments like Women's Continental Championship is automatically awarded the WGM title. From 2017, the direct titles are only awarded as long as she can reach the minimum FIDE rating of 2100. The current regulations can be found in the FIDE handbook.[7]
+
+Woman International Master (WIM) [edit]
+
+Woman International Master is next to the highest-ranking title given by FIDE exclusively to women. FIDE first awarded the WIM title (formerly called International Woman Master, or IWM) in 1950.[24]
+
+The usual way to obtain the WIM title is similar to the open titles, where a FIDE rating of 2200 and three norms of 2250 performance rating is required against opponents who are higher rated than 2030 on average. The runners-up in the World Girls Junior Championship, the U18 and U16 World Youth Champions as well Continental Championship medalists and U18 Continental and Regional Champions of the women's section are directly awarded the title. From 2017, direct titles are only awarded as long as she can cross the minimum rating of 2000. The current regulations can be found in the FIDE handbook.[7]
+
+Woman FIDE Master (WFM) [edit]
+
+Introduced with FM in 1978,[24] the WFM title may be achieved by gaining a FIDE rating of 2100 or more. The U14 and U12 World Youth Champions as well as U16 and U18 medalists of the women's section are directly awarded the title. The U12, U14, U16 Continental and Regional Champions of the women's section are also directly awarded the title. The title can also be acquired by scoring more than 65% points in more than 9 games in the Olympiad. From 2017, direct titles are only awarded as long as a minimum rating of 1900 is achieved.[7]
+
+Woman Candidate Master (WCM) [edit]
+
+Introduced with CM in 2002,[24] Woman Candidate Master is the lowest-ranking title awarded by FIDE.[23] This title may be achieved by gaining a FIDE rating of 2000 or more. The title can also be acquired by getting a medal in U8, U10, U12, U14, U16 World Youth Championships or Continental and Regional Youth Championships of the women's section as well as by scoring more than 50% points in more than 7 games in the Olympiad. From 2017, direct titles are o

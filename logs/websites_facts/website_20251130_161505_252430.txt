@@ -1,0 +1,14 @@
+URL: https://onetag-sys.com/usync/?redir=https%3A%2F%2Fcs-tam.yellowblue.io%2Fcs%3Faid%3D11581%26uid%3D%24%7BUSER_TOKEN%7D&gdpr=0&gdpr_consent=&us_privacy=[US_PRIVACY]
+Timestamp: 2025-11-30T16:15:05.252574
+Content Type: facts
+Content Length: 157 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close

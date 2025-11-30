@@ -1,0 +1,75 @@
+
+================================================================================
+[USER FEEDBACK] 2025-11-30T16:05:51.919404
+================================================================================
+URL: https://en.wikipedia.org/wiki/Chess_master
+
+TYPE: ✓ VERIFIED AS TRUE
+
+CLAIM:
+Chess Master is a man that has many glories.
+
+EVIDENCE/PROOF:
+I have a firend know this.
+
+CONTEXT:
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close
+Jump to content
+Main menu
+Search
+Donate
+Create account
+Log in
+Contents hide
+(Top)
+Over-the-board chess
+Toggle Over-the-board chess subsection
+...
+
+
+================================================================================
+[USER FEEDBACK] 2025-11-30T16:06:50.680760
+================================================================================
+URL: https://en.wikipedia.org/wiki/Chess_master
+
+TYPE: ⚠ MARKED AS SUSPICIOUS
+
+CLAIM:
+Test feed back .
+
+EVIDENCE/PROOF:
+I think there might be something wrong.
+
+CONTEXT:
+[AI]
+Summary and Facts Check
+
+The webpage discusses chess titles, which are regulated by governing bodies like FIDE, and are awarded based on player performance. The most prestigious title is Grandmaster, established in 1950, alongside International Master and FIDE Master. The term "master" has hist...
+
+
+================================================================================
+[USER FEEDBACK] 2025-11-30T16:15:40.036538
+================================================================================
+URL: https://apnews.com/article/comey-james-justice-department-5ec1a59d152bc1fd000ade15e20745b5?utm_source=firefox-newtab-en-us
+
+TYPE: ✓ VERIFIED AS TRUE
+
+CLAIM:
+A federal judge dismissed the indictments against James Comey and Letitia James after ruling that the prosecutor was illegally appointed.
+
+EVIDENCE/PROOF:
+This fact is supported by an Associated Press (AP News) article titled “Judge dismisses Comey, James indictments after finding that prosecutor was illegally appointed,” published on the official AP website. The AP is a credible and internationally recognized news agency. The article clearly states that a federal judge dismissed the indictments because the prosecutor's appointment was found to be improper. This contradicts the fact-check panel’s claim that the information is false.
+
+CONTEXT:
+[AI]
+Summary and Facts Check
+
+A federal judge has dismissed criminal cases against former FBI Director James Comey and New York Attorney General Letitia James, ruling that the prosecutor, Lindsey Halligan, was illegally appointed. This decision halts prosecutions aimed at two prominent critics of Pr...
+

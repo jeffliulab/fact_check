@@ -1,0 +1,14 @@
+URL: https://ms-cookie-sync.presage.io/user-sync.html?source=tam
+Timestamp: 2025-11-30T16:22:39.479730
+Content Type: facts
+Content Length: 157 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close

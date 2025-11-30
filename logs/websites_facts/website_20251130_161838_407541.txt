@@ -1,0 +1,14 @@
+URL: https://hbx.media.net/checksync.php?cid=8CUEHS6F9&cs=87&type=mpbc&cv=37&vsSync=1&uspstring=&gdpr=&gdprstring=&gpp=&gpp_sid=&redirect=https%3A%2F%2Fs2s.t13.io%2Fsetuid%3Fbidder%3Dmedianet%26gdpr%3D%26gdpr_consent%3D%26us_privacy%3D%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D%3Cvsid%3E
+Timestamp: 2025-11-30T16:18:38.408206
+Content Type: facts
+Content Length: 157 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close

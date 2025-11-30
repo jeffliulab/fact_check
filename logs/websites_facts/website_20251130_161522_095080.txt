@@ -1,0 +1,15 @@
+URL: https://googleads.g.doubleclick.net/xbbe/pixel?d=CNUBEJGDNhj17J2mAjAB&v=APEucNVacxuKHfzv-s77_RJei5jAkTWWmUxJjrFAIsnSF7s-s5sYzQlSZwatXqWq0y8JELBvrz9XkYQ8DRd71iqBclDUVCCgNg
+Timestamp: 2025-11-30T16:15:22.095240
+Content Type: facts
+Content Length: 163 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close
+270 0

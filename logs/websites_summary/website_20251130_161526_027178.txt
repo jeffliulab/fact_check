@@ -1,0 +1,14 @@
+URL: https://hbx.media.net/checksync.php?vsSync=1&cs=8&cv=31&https=1&cid=8CUJ8GUQF&prvid=2034%2C2031%2C2030%2C590%2C592%2C551%2C233%2C157%2C2028%2C2027%2C2026%2C236%2C357%2C237%2C117%2C636%2C55%2C99%2C56%2C59%2C2045%2C3010%2C122%2C201%2C2039%2C246%2C4%2C521%2C126%2C203%2C445%2C643%2C9%2C2055%2C2099%2C173%2C251%2C178%2C2127%2C3017%2C697%2C214%2C3016%2C413%2C337%2C338%2C459%2C339%2C77%2C2022%2C141%2C262%2C461%2C222%2C542%2C345%2C226%2C468%2C10000%2C624%2C701%2C80%2C229%2C307%2C82&itype=PREBID&purpose1=1&gdprconsent=1&gdpr=0&coppa=0&usp_status=0&usp_consent=1
+Timestamp: 2025-11-30T16:15:26.027691
+Content Type: summary
+Content Length: 157 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close

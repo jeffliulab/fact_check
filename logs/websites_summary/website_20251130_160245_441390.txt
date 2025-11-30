@@ -1,0 +1,62 @@
+URL: https://en.wikipedia.org/wiki/Mechanical_Turk
+Timestamp: 2025-11-30T16:02:45.441754
+Content Type: summary
+Content Length: 3000 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close
+Jump to content
+Main menu
+Search
+Donate
+Create account
+Log in
+Contents hide
+(Top)
+Construction
+Exhibition
+European tour
+Mälzel
+North American tour
+Later years
+Publication of the mechanism
+Legacy
+Toggle Legacy subsection
+In literature and the arts
+Reconstruction
+Notes
+References
+Sources
+Further reading
+External links
+Mechanical Turk
+35 languages
+Article
+Talk
+Read
+View source
+View history
+Tools
+Appearance hide
+From Wikipedia, the free encyclopedia
+For the crowdsourcing website, see Amazon Mechanical Turk.
+A cross-section of the Mechanical Turk, showing how Joseph Racknitz thought the operator sat inside as he played his opponent. Racknitz was wrong about both the operator's position and the dimensions of the automaton.[1]
+
+The Mechanical Turk, also known as the Automaton Chess Player (German: Schachtürke, lit. 'chess Turk'; Hungarian: A Török), or simply the Turk, was a chess-playing machine first displayed in 1770, which appeared to be able to play a strong game of chess autonomously, but whose pieces were in reality moved via levers and magnets by a chess master hidden in its lower cavity. The machine was toured and exhibited for 84 years as an automaton, and continued giving occasional exhibitions until 1854, when it was destroyed in a fire. In 1857, an article published by the owner's son provided the first full explanation of the mechanism, which had been widely suspected to be a hoax but never accurately described while the machine still existed.
+
+Constructed by Wolfgang von Kempelen to impress Empress Maria Theresa, the Turk won most games, including those against statesmen such as Napoleon Bonaparte and Benjamin Franklin. It was purchased in 1804 by Johann Nepomuk Mälzel, who continued to exhibit it. Chess masters who operated it over this later period included Johann Allgaier, Boncourt, Aaron Alexandre, William Lewis, Jacques Mouret and William Schlumberger, but its operators during Kempelen's original tour remain unknown. The device could also perform the knight's tour, a puzzle that required the player to move a knight to visit every square of a chessboard exactly once.
+
+Construction
+A signed charcoal self-portrait of Kempelen, who constructed the Turk
+
+A performance in 1769 by the French illusionist François Pelletier at the court of Empress Maria Theresa in Schönbrunn Palace prompted Wolfgang von Kempelen to promise to return to the Palace within a year with an invention that would surpass Pelletier's illusions.[2]
+
+A copper engraving of the Turk, showing the open cabinet and working parts. A ruler at bottom right provides scale. Windisch describes the engravings as based on drawings "done by M. de Kempelen himself, for M. de Mechell, and which consequently cannot fail of being faithful and exact".[3]
+An engraving of the Turk from Karl Gottlieb von Windisch's 1784 book Inanimate R

@@ -1,0 +1,14 @@
+URL: https://s0.2mdn.net/sadbundle/18282742581512032305/300x600_plt_temp.html?e=69&leftOffset=0&topOffset=0&c=JCafgtXgsS&t=1&renderingType=2&ev=01_262
+Timestamp: 2025-11-30T16:15:28.106615
+Content Type: facts
+Content Length: 157 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close

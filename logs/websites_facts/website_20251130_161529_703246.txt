@@ -1,0 +1,287 @@
+URL: https://contextual.media.net/cksync.html?cs=8&vsid=4075388912628370000V10&type=rkt&refUrl=&vid=4075388912628370000V10&axid_e=&ovsid=979321865973573876
+Timestamp: 2025-11-30T16:15:29.703970
+Content Type: facts
+Content Length: 15000 chars
+================================================================================
+
+
+            
+                
+                    
+                        
+                            
+                                [AI]
+                                Summary and Facts Check
+                            
+                            
+                                
+                                    Generating AI analysis...
+                                
+                            
+                            
+                            
+                                Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+                                
+                                    Feedback
+                                    Close
+                                
+                            
+                        
+                    
+                
+            
+        
+
+(function() {
+    // 全局错误处理
+    window.addEventListener('error', function(e) {
+        console.error('[Global Error]', e.message, e.filename, e.lineno, e.colno);
+    });
+    
+    console.log('[AI Summary] Script loaded, readyState:', document.readyState);
+    
+    if (document.readyState === 'loading') {
+        console.log('[AI Summary] Waiting for DOMContentLoaded...');
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('[AI Summary] DOMContentLoaded fired');
+            initAISummary();
+        });
+    } else {
+        console.log('[AI Summary] DOM already loaded, initializing with timeout...');
+        setTimeout(function() {
+            console.log('[AI Summary] Timeout fired, initializing...');
+            initAISummary();
+        }, 100);
+    }
+    
+    function initAISummary() {
+        try {
+            console.log('[AI Summary] Initializing...');
+            createBanner('Generating AI analysis...', null, null);
+            var pageText = extractPageText();
+            console.log('[AI Summary] Extracted text length:', pageText.length);
+            requestSummary(pageText);
+        } catch(e) {
+            console.error('[AI Summary] Initialization error:', e);
+            console.error('[AI Summary] Stack:', e.stack);
+        }
+    }
+    
+    function createBanner(message, confidence, factDetails) {
+        try {
+            console.log('[Banner] Creating banner, confidence:', confidence);
+            var banner = document.createElement('div');
+            banner.id = 'cs112-ai-summary-banner';
+            
+            var bgColor = '#667eea';
+            var factCheckHtml = '';
+        
+        // 根据confidence值判断显示什么类型的提示
+        if (confidence !== null && confidence !== 'N/A') {
+            if (confidence === 'FAKE') {
+                // 情况3：检测到虚假事实
+                bgColor = '#e74c3c';  // Red
+                factCheckHtml = `
+                    <div style="background: #ffe6e6; border: 2px solid #e74c3c; border-radius: 8px; padding: 15px; margin-top: 15px;">
+                        <div style="display: flex; align-items: flex-start;">
+                            <span style="font-size: 32px; margin-right: 12px; line-height: 1;">✗</span>
+                            <div style="flex: 1;">
+                                <h3 style="margin: 0 0 10px 0; color: #e74c3c; font-size: 18px; font-weight: bold;">Fake Facts Detected</h3>
+                                <div style="color: #c0392b; font-size: 14px; line-height: 1.6; white-space: pre-line;">
+                                    ${factDetails || 'False information detected in content.'}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            } else if (confidence === 'SUSPICIOUS') {
+                // 情况2：检测到可疑事实
+                bgColor = '#f39c12';  // Orange
+                factCheckHtml = `
+                    <div style="background: #fff8e1; border: 2px solid #f39c12; border-radius: 8px; padding: 15px; margin-top: 15px;">
+                        <div style="display: flex; align-items: flex-start;">
+                            <span style="font-size: 24px; margin-right: 12px; line-height: 1;">⚠</span>
+                            <div style="flex: 1;">
+                                <h3 style="margin: 0 0 10px 0; color: #f39c12; font-size: 18px; font-weight: bold;">Suspicious Facts Detected</h3>
+                                <div style="color: #e67e22; font-size: 14px; line-height: 1.6; white-space: pre-line;">
+                                    ${factDetails || 'Some claims require verification.'}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            } else if (confidence === 'CLEAN') {
+                // 情况1：没有问题事实
+                bgColor = '#27ae60';  // Green
+                factCheckHtml = `
+                    <div style="background: #e8f8f5; border: 2px solid #27ae60; border-radius: 8px; padding: 12px; margin-top: 15px;">
+                        <div style="display: flex; align-items: center;">
+                            <span style="font-size: 24px; margin-right: 12px;">✓</span>
+                            <div style="flex: 1;">
+                                <p style="margin: 0; color: #27ae60; font-size: 14px; font-weight: bold;">No False Facts Detected</p>
+                                <p style="margin: 5px 0 0 0; color: #1e8449; font-size: 13px;">
+                                    ${factDetails || 'Content appears reliable'}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+        }
+        
+        banner.innerHTML = `
+            <div style="all: initial; display: block; width: 100%; background: linear-gradient(135deg, ${bgColor} 0%, ${bgColor}dd 100%); padding: 0; margin: 0; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; position: relative; z-index: 999999;">
+                <div style="max-width: 1200px; margin: 0 auto; padding: 20px; background: rgba(255, 255, 255, 0.97); box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
+                        <div style="flex: 1; min-width: 300px; margin-right: 20px;">
+                            <h2 style="margin: 0 0 15px 0; padding: 0; font-size: 24px; font-weight: 700; color: ${bgColor}; display: flex; align-items: center;">
+                                <span style="margin-right: 10px; font-size: 28px;">[AI]</span>
+                                <span>Summary and Facts Check</span>
+                            </h2>
+                            <div id="cs112-summary-content" style="background: #f8f9fa; border-left: 4px solid ${bgColor}; padding: 15px; border-radius: 8px; margin-bottom: 10px;">
+                                <p style="margin: 0; padding: 0; font-size: 16px; line-height: 1.8; color: #333;">
+                                    ${message}
+                                </p>
+                            </div>
+                            ${factCheckHtml}
+                            <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; font-size: 13px; color: #666; margin-top: 15px;">
+                                <span><strong>Powered by Tufts CS112 Team LLM Proxy</strong> | Fact Check is a free and open-source service!</span>
+                                <div style="display: flex; gap: 10px;">
+                                    <button onclick="openFeedbackModal()" style="background: #3498db; color: white; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer; font-size: 14px; font-weight: 600;">Feedback</button>
+                                    <button onclick="document.getElementById('cs112-ai-summary-banner').remove()" style="background: #95a5a6; color: white; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer; font-size: 14px; font-weight: 600;">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+        
+            if (document.body) {
+                document.body.insertBefore(banner, document.body.firstChild);
+                console.log('[Banner] Banner inserted successfully');
+            } else {
+                console.error('[Banner] document.body not found');
+            }
+        } catch(e) {
+            console.error('[Banner] Error creating banner:', e);
+            console.error('[Banner] Stack:', e.stack);
+        }
+    }
+    
+    function updateBanner(message, confidence, factDetails) {
+        // Remove old banner
+        var oldBanner = document.getElementById('cs112-ai-summary-banner');
+        if (oldBanner) {
+            oldBanner.remove();
+        }
+        // Create new banner
+        createBanner(message, confidence, factDetails);
+    }
+    
+    function extractPageText() {
+        var text = document.body.innerText || document.body.textContent || '';
+        return text.substring(0, 15000);
+    }
+    
+    function requestSummary(pageText) {
+        var url = 'http://127.0.0.1:5000/api/summary';
+        
+        fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                url: 'https://contextual.media.net/cksync.html?cs=8&vsid=4075388912628370000V10&type=rkt&refUrl=&vid=4075388912628370000V10&axid_e=&ovsid=979321865973573876',
+                content: pageText
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.summary) {
+                updateBanner(data.summary, data.confidence, data.fact_details);
+                console.log('[AI Summary] Analysis complete');
+            } else {
+                updateBanner('Analysis failed', null, null);
+            }
+        })
+        .catch(error => {
+            console.error('[AI Summary] Request failed:', error);
+            updateBanner('Cannot connect to AI server', null, null);
+        });
+    }
+    
+    // ========== Feedback功能（暴露到全局作用域） ==========
+    var currentPageUrl = 'https://contextual.media.net/cksync.html?cs=8&vsid=4075388912628370000V10&type=rkt&refUrl=&vid=4075388912628370000V10&axid_e=&ovsid=979321865973573876';
+    var currentPageContent = '';
+    
+    // 暴露到window对象，使onclick可以访问
+    window.openFeedbackModal = function() {
+        currentPageContent = extractPageText();
+        
+        // 创建模态框
+        var modal = document.createElement('div');
+        modal.id = 'feedback-modal';
+        modal.innerHTML = `
+            <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); z-index: 9999999; display: flex; align-items: center; justify-content: center;">
+                <div style="background: white; padding: 30px; border-radius: 12px; max-width: 550px; width: 90%; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+                    <h3 style="margin: 0 0 20px 0; color: #333; font-size: 22px;">Submit Your Feedback</h3>
+                    
+                    <div style="margin-bottom: 20px;">
+                        <label style="display: block; margin-bottom: 8px; font-weight: bold; color: #555;">Fact Content:</label>
+                        <textarea id="feedback-content" placeholder="Enter the specific fact or claim you want to report (at least 10 characters)" 
+                                  style="width: 100%; height: 80px; padding: 10px; border-radius: 6px; border: 2px solid #ddd; font-size: 14px; resize: vertical;"></textarea>
+                        <small style="color: #666; font-size: 12px;">Example: Hong Kong is an independent country</small>
+                    </div>
+                    
+                    <div style="margin-bottom: 20px;">
+                        <label style="display: block; margin-bottom: 8px; font-weight: bold; color: #555;">Your Assessment:</label>
+                        <select id="feedback-type" style="width: 100%; padding: 10px; border-radius: 6px; border: 2px solid #ddd; font-size: 15px;">
+                            <option value="fact">✓ This is a FACT (True)</option>
+                            <option value="suspicious_fact">⚠ This is SUSPICIOUS (Needs verification)</option>
+                            <option value="fake_fact">✗ This is FAKE (False)</option>
+                        </select>
+                    </div>
+                    
+                    <div style="margin-bottom: 20px;">
+                        <label style="display: block; margin-bottom: 8px; font-weight: bold; color: #555;">Evidence/Proof:</label>
+                        <textarea id="feedback-prove" placeholder="Provide evidence or sources to support your assessment (at least 10 characters)" 
+                                  style="width: 100%; height: 100px; padding: 10px; border-radius: 6px; border: 2px solid #ddd; font-size: 14px; resize: vertical;"></textarea>
+                        <small style="color: #666; font-size: 12px;">Example: According to Wikipedia, Hong Kong is a Special Administrative Region of China</small>
+                    </div>
+                    
+                    <div id="feedback-status" style="margin-bottom: 15px; display: none; padding: 10px; border-radius: 6px;"></div>
+                    
+                    <div style="display: flex; justify-content: flex-end; gap: 10px;">
+                        <button onclick="closeFeedbackModal()" 
+                                style="background: #95a5a6; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; font-size: 15px; font-weight: 600;">
+                            Cancel
+                        </button>
+                        <button onclick="submitFeedback()" 
+                                style="background: #27ae60; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; font-size: 15px; font-weight: 600;">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+            </div>
+        `;
+        
+        document.body.appendChild(modal);
+    };
+    
+    window.closeFeedbackModal = function() {
+        var modal = document.getElementById('feedback-modal');
+        if (modal) {
+            modal.remove();
+        }
+    };
+    
+    window.submitFeedback = function() {
+        var feedbackContent = document.getElementById('feedback-content').value;
+        var feedbackType = document.getElementById('feedback-type').value;
+        var feedbackProve = document.getElementById('feedback-prove').value;
+        var statusDiv = document.getElementById('feedback-status');
+        
+        // 验证fact内容
+        if (!f

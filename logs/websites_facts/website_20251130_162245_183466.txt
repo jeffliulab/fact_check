@@ -1,0 +1,14 @@
+URL: https://prebid.a-mo.net/cchain/0?gdpr=0&gdpr_consent=&cb=https%3A%2F%2Fcs.yellowblue.io%2Fcs%3Faid%3D11598%26uid%3D%24UID
+Timestamp: 2025-11-30T16:22:45.183699
+Content Type: facts
+Content Length: 157 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close

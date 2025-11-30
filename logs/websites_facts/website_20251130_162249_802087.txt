@@ -1,0 +1,15 @@
+URL: https://sync.1rx.io/usersync2/rmpssp?sub=zeta&gdpr=0&gdpr_consent=&us_privacy=&redir=https%3A%2F%2Fssp.disqus.com%2Fmatch%3Fbidder%3D37%26buyeruid%3D%5BRX_UUID%5D%26r%3DCid1YS02ZjJiOWYwMy03YTU2LTMzYTUtYWY3Mi1kNGY3MjRkNTljY2YqUGh0dHBzOi8vY3MueWVsbG93Ymx1ZS5pby9jcz9haWQ9MTE2MTImaWQ9dWEtNmYyYjlmMDMtN2E1Ni0zM2E1LWFmNzItZDRmNzI0ZDU5Y2NmMgIBJTgC
+Timestamp: 2025-11-30T16:22:49.802236
+Content Type: facts
+Content Length: 159 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close
+0

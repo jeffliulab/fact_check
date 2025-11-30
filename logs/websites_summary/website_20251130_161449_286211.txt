@@ -1,0 +1,15 @@
+URL: https://ap.lijit.com/beacon/amazon?url=https://s.amazon-adsystem.com/ecm3?id=$UID&ex=sovrn.com
+Timestamp: 2025-11-30T16:14:49.286430
+Content Type: summary
+Content Length: 167 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close
+302 Found

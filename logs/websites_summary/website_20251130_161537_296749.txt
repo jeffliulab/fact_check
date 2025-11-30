@@ -1,0 +1,87 @@
+URL: https://hbx.media.net/cksync.html?cs=8&vsid=4075388912628370000V10&type=ppt&refUrl=&vid=45373087754075388912628370000V10&axid_e=&ovsid=myPaAX5xElRm&ev=1&pid=560210
+Timestamp: 2025-11-30T16:15:37.297901
+Content Type: summary
+Content Length: 3000 chars
+================================================================================
+
+
+            
+                
+                    
+                        
+                            
+                                [AI]
+                                Summary and Facts Check
+                            
+                            
+                                
+                                    Generating AI analysis...
+                                
+                            
+                            
+                            
+                                Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+                                
+                                    Feedback
+                                    Close
+                                
+                            
+                        
+                    
+                
+            
+        
+
+(function() {
+    // 全局错误处理
+    window.addEventListener('error', function(e) {
+        console.error('[Global Error]', e.message, e.filename, e.lineno, e.colno);
+    });
+    
+    console.log('[AI Summary] Script loaded, readyState:', document.readyState);
+    
+    if (document.readyState === 'loading') {
+        console.log('[AI Summary] Waiting for DOMContentLoaded...');
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('[AI Summary] DOMContentLoaded fired');
+            initAISummary();
+        });
+    } else {
+        console.log('[AI Summary] DOM already loaded, initializing with timeout...');
+        setTimeout(function() {
+            console.log('[AI Summary] Timeout fired, initializing...');
+            initAISummary();
+        }, 100);
+    }
+    
+    function initAISummary() {
+        try {
+            console.log('[AI Summary] Initializing...');
+            createBanner('Generating AI analysis...', null, null);
+            var pageText = extractPageText();
+            console.log('[AI Summary] Extracted text length:', pageText.length);
+            requestSummary(pageText);
+        } catch(e) {
+            console.error('[AI Summary] Initialization error:', e);
+            console.error('[AI Summary] Stack:', e.stack);
+        }
+    }
+    
+    function createBanner(message, confidence, factDetails) {
+        try {
+            console.log('[Banner] Creating banner, confidence:', confidence);
+            var banner = document.createElement('div');
+            banner.id = 'cs112-ai-summary-banner';
+            
+            var bgColor = '#667eea';
+            var factCheckHtml = '';
+        
+        // 根据confidence值判断显示什么类型的提示
+        if (confidence !== null && confidence !== 'N/A') {
+            if (confidence === 'FAKE') {
+                // 情况3：检测到虚假事实
+                bgColor = '#e74c3c';  // Red
+                factCheckHtml = `
+                    <div style="background: #ffe6e6; border: 2px solid #e74c3c; border-radius: 8px; padding: 15px; margin-top: 15px;">
+                        <div style="display: flex; align-items: flex-start;">
+                 

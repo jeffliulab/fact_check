@@ -1,0 +1,15 @@
+URL: https://sync-amz.ads.yieldmo.com/tamptsync?callback=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dym.com%26id%3D%24UID
+Timestamp: 2025-11-30T16:15:02.386142
+Content Type: facts
+Content Length: 163 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close
+409 0

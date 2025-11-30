@@ -1,0 +1,15 @@
+URL: https://eb2.3lift.com/sync?
+Timestamp: 2025-11-30T16:22:41.853330
+Content Type: facts
+Content Length: 159 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close
+ 

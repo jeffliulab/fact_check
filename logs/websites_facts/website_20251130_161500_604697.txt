@@ -1,0 +1,15 @@
+URL: https://sync.intentiq.com/profiles_engine/ProfilesEngineServlet?at=20&mi=10&dpi=1380607794
+Timestamp: 2025-11-30T16:15:00.604857
+Content Type: facts
+Content Length: 163 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close
+323 0

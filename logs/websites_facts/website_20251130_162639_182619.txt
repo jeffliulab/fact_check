@@ -1,0 +1,130 @@
+URL: https://en.wikipedia.org/wiki/Automaton
+Timestamp: 2025-11-30T16:26:39.182732
+Content Type: facts
+Content Length: 15000 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close
+Jump to content
+Main menu
+Search
+Donate
+Create account
+Log in
+Contents hide
+(Top)
+Etymology
+History
+Toggle History subsection
+Ancient
+Medieval
+Renaissance and early modern
+Modern
+Proposals
+Clocks
+See also
+Notes
+References
+Further reading
+External links
+Automaton
+40 languages
+Article
+Talk
+Read
+Edit
+View history
+Tools
+Appearance hide
+From Wikipedia, the free encyclopedia
+Not to be confused with automation as a process.
+This article is about a self-operating machine. For other uses, see Automaton (disambiguation). For Automata, see Automata (disambiguation).
+Pinocchio automaton
+
+An automaton (/ɔːˈtɒmətən/ ⓘ; pl.: automata or automatons) is a relatively self-operating machine, or control mechanism designed to automatically follow a sequence of operations, or respond to predetermined instructions.[1] Some automata, such as bellstrikers in mechanical clocks, are designed to give the illusion to the casual observer that they are operating under their own power or will, like a mechanical robot. The term has long been commonly associated with automated puppets that resemble moving humans or animals, built to impress and/or to entertain people.
+
+Animatronics are a modern type of automata with electronics, often used for the portrayal of characters or creatures in films and in theme park attractions.
+
+Etymology[edit]
+
+The word automaton is the latinization of the Ancient Greek automaton (αὐτόματον), which means "acting of one's own will". It was first used by Homer to describe an automatic door opening,[2] or automatic movement of wheeled tripods.[3] It is more often used to describe non-electronic moving machines, especially those that have been made to resemble human or animal actions, such as the jacks on old public striking clocks, or the cuckoo and any other animated figures on a cuckoo clock.
+
+History[edit]
+Ancient[edit]
+The book About automata by Hero of Alexandria (1589)
+
+There are many examples of automata in Greek mythology: Hephaestus created automata for his workshop;[4][5] Talos was an artificial man of bronze; King Alkinous of the Phaiakians employed gold and silver watchdogs.[6][7] According to Aristotle, Daedalus used quicksilver to make his wooden statue of Aphrodite move.[8][9] In other Greek legends he used quicksilver to install voice in his moving statues.
+
+The automata in the Hellenistic world were intended as tools, toys, religious spectacles, or prototypes for demonstrating basic scientific principles. Numerous water-powered automata were built by Ktesibios, a Greek inventor and the first head of the Great Library of Alexandria; for example, he "used water to sound a whistle and make a model owl move. He had invented the world's first 'cuckoo clock'".[a] This tradition continued in Alexandria with inventors such as the Greek mathematician Hero of Alexandria (sometimes known as Heron), whose writings on hydraulics, pneumatics, and mechanics described siphons, a fire engine, a water organ, the aeolipile, and a programmable cart.[10][11] Philo of Byzantium was famous for his inventions.
+
+The Antikythera mechanism from c. 200–80 BC was designed to calculate the positions of astronomical objects.
+
+Complex mechanical devices are known to have existed in Hellenistic Greece, though the only surviving example is the Antikythera mechanism, the earliest known analog computer.[12] The clockwork is thought to have come originally from Rhodes, where there was apparently a tradition of mechanical engineering; the island was renowned for its automata; to quote Pindar's seventh Olympic Ode:
+
+The animated figures stand
+Adorning every public street
+And seem to breathe in stone, or
+move their marble feet.
+
+However, the information gleaned from recent scans of the fragments indicate that it may have come from the colonies of Corinth in Sicily and implies a connection with Archimedes.
+
+According to Jewish legend, King Solomon used his wisdom to design a throne with mechanical animals which hailed him as king when he ascended it; upon sitting down an eagle would place a crown upon his head, and a dove would bring him a Torah scroll. It is also said that when King Solomon stepped upon the throne, a mechanism was set in motion. As soon as he stepped upon the first step, a golden ox and a golden lion each stretched out one foot to support him and help him rise to the next step. On each side, the animals helped the King up until he was comfortably seated upon the throne.[13]
+
+In ancient China, a curious account of automata is found in the Lie Zi text, believed to have originated around 400 BCE and compiled around the fourth century CE. Within it there is a description of a much earlier encounter between King Mu of Zhou (1023–957 BCE) and a mechanical engineer known as Yan Shi, an 'artificer'. The latter proudly presented the king with a very realistic and detailed life-size, human-shaped figure of his mechanical handiwork:
+
+The king stared at the figure in astonishment. It walked with rapid strides, moving its head up and down, so that anyone would have taken it for a live human being. The artificer touched its chin, and it began singing, perfectly in tune. He touched its hand, and it began posturing, keeping perfect time...As the performance was drawing to an end, the robot winked its eye and made advances to the ladies in attendance, whereupon the king became incensed and would have had Yen Shih [Yan Shi] executed on the spot had not the latter, in mortal fear, instantly taken the robot to pieces to let him see what it really was. And, indeed, it turned out to be only a construction of leather, wood, glue and lacquer, variously coloured white, black, red and blue. Examining it closely, the king found all the internal organs complete—liver, gall, heart, lungs, spleen, kidneys, stomach and intestines; and over these again, muscles, bones and limbs with their joints, skin, teeth and hair, all of them artificial...The king tried the effect of taking away the heart, and found that the mouth could no longer speak; he took away the liver and the eyes could no longer see; he took away the kidneys and the legs lost their power of locomotion. The king was delighted.[14]
+
+Other notable examples of automata include Archytas' dove, mentioned by Aulus Gellius.[15] Similar Chinese accounts of flying automata are written of the 5th century BC Mohist philosopher Mozi and his contemporary Lu Ban, who made artificial wooden birds (ma yuan) that could successfully fly according to the Han Fei Zi and other texts.[16]
+
+Medieval[edit]
+	
+This section may contain citations that do not verify the text. Please help improve it by checking for citation inaccuracies and resourcing or removing material failing verification. (January 2012) (Learn how and when to remove this message)
+
+The manufacturing tradition of automata continued in the Greek world well into the Middle Ages. On his visit to Constantinople in 949 ambassador Liutprand of Cremona described automata in the emperor Theophilos' palace, including
+
+"lions, made either of bronze or wood covered with gold, which struck the ground with their tails and roared with open mouth and quivering tongue," "a tree of gilded bronze, its branches filled with birds, likewise made of bronze gilded over, and these emitted cries appropriate to their species" and "the emperor's throne" itself, which "was made in such a cunning manner that at one moment it was down on the ground, while at another it rose higher and was to be seen up in the air."[17]
+
+Similar automata in the throne room (singing birds, roaring and moving lions) were described by Luitprand's contemporary the Byzantine emperor Constantine Porphyrogenitus, in his book De Ceremoniis (Perì tês Basileíou Tákseōs).
+
+In the mid-8th century, the first wind powered automata were built: "statues that turned with the wind over the domes of the four gates and the palace complex of the Round City of Baghdad". The "public spectacle of wind-powered statues had its private counterpart in the 'Abbasid palaces where automata of various types were predominantly displayed."[18] Also in the 8th century, the Muslim alchemist, Jābir ibn Hayyān (Geber), included recipes for constructing artificial snakes, scorpions, and humans that would be subject to their creator's control in his coded Book of Stones. In 827, Abbasid caliph al-Ma'mun had a silver and golden tree in his palace in Baghdad, which had the features of an automatic machine. There were metal birds that sang automatically on the swinging branches of this tree built by Muslim inventors and engineers.[19][page needed] The Abbasid caliph al-Muqtadir also had a silver and golden tree in his palace in Baghdad in 917, with birds on it flapping their wings and singing.[20] In the 9th century, the Banū Mūsā brothers invented a programmable automatic flute player and which they described in their Book of Ingenious Devices.[21]
+
+Automaton in the Swiss Museum CIMA
+An automaton writing a letter in Swiss Museum CIMA
+
+Al-Jazari described complex programmable humanoid automata amongst other machines he designed and constructed in the Book of Knowledge of Ingenious Mechanical Devices in 1206.[22] His automaton was a boat with four automatic musicians that floated on a lake to entertain guests at royal drinking parties.[23] His mechanism had a programmable drum machine with pegs (cams) that bump into little levers that operate the percussion. The drummer could be made to play different rhythms and drum patterns if the pegs were moved around.[24]
+
+Al-Jazari constructed a hand washing automaton first employing the flush mechanism now used in modern toilets. It features a female automaton standing by a basin filled with water. When the user pulls the lever, the water drains and the automaton refills the basin.[25] His "peacock fountain" was another more sophisticated hand washing device featuring humanoid automata as servants who offer soap and towels. Mark E. Rosheim describes it as follows: "Pulling a plug on the peacock's tail releases water out of the beak; as the dirty water from the basin fills the hollow base a float rises and actuates a linkage which makes a servant figure appear from behind a door under the peacock and offer soap. When more water is used, a second float at a higher level trips and causes the appearance of a second servant figure—with a towel!"[26]
+
+Al-Jazari thus appears to have been the first inventor to display an interest in creating human-like machines for practical purposes such as manipulating the environment for human comfort.[27] Lamia Balafrej has also pointed out the prevalence of the figure of the automated slave in al-Jazari's treatise.[28] Automated slaves were a frequent motif in ancient and medieval literature but it was not so common to find them described in a technical book. Balafrej has also written about automated female slaves, which appeared in timekeepers and as liquid-serving devices in medieval Arabic sources, thus suggesting a link between feminized forms of labor like housekeeping, medieval slavery, and the imaginary of automation.[29]
+
+In 1066, the Chinese inventor Su Song built a water clock in the form of a tower which featured mechanical figurines which chimed the hours.[30]
+
+Samarangana Sutradhara, a Sanskrit treatise by Bhoja (11th century), includes a chapter about the construction of mechanical contrivances (automata), including mechanical bees and birds, fountains shaped like humans and animals, and male and female dolls that refilled oil lamps, danced, played instruments, and re-enacted scenes from Hindu mythology.[31][32][33] [better source needed]
+
+Villard de Honnecourt, in his 1230s sketchbook, depicted an early escapement mechanism in a drawing titled How to make an angel keep pointing his finger toward the Sun with an angel that would perpetually turn to face the sun. He also drew an automaton of a bird with jointed wings, which led to their design implementation in clocks.[34][35]
+
+At the end of the thirteenth century, Robert II, Count of Artois, built a pleasure garden at his castle at Hesdin that incorporated several automata as entertainment in the walled park. The work was conducted by local workmen and overseen by the Italian knight Renaud Coignet. It included monkey marionettes, a sundial supported by lions and "wild men", mechanized birds, mechanized fountains and a bellows-operated organ. The park was famed for its automata well into the fifteenth century before it was destroyed by English soldiers in the sixteenth century.[36][37][38]
+
+The Chinese author Xiao Xun wrote that when the Ming dynasty founder Hongwu (r. 1368–1398) was destroying the palaces of Khanbaliq belonging to the previous Yuan dynasty, there were—among many other mechanical devices—automata found that were in the shape of tigers.[39]
+
+Renaissance and early modern[edit]
+First Strasbourg clock rooster, worked from 1352 to 1789
+A cuckoo clock with a built-in automaton of a cuckoo that flaps its wings and opens its beak in time to the sounds of the cuckoo call to mark the number of hours on the analogue dial
+Clockwork crayfish automaton, made in Augsburg in 1589, Technical Instrument Museum, Dresden
+
+The Renaissance witnessed a considerable revival of interest in automata. Hero's treatises were edited and translated into Latin and Italian. Hydraulic and pneumatic automata, similar to those described by Hero, were created for garden grottoes.
+
+Giovanni Fontana, a Paduan engineer in 1420, developed Bellicorum instrumentorum liber[b] which includes a puppet of a camelid driven by a clothed primate twice the height of a human being and an automaton of Mary Magdalene.[41] He also created mechanical devils and rocket-propelled animal automata.[42][43]
+
+Bell-ringing Death on Prague astronomical clock
+
+While functional, early clocks were also often designed as novelties and spectacles which integrated features of automata. Many big and complex clocks with automated figures were built as public spectacles in European town centres. One of the earliest of these large clocks was the Strasbourg astronomical clock, built in the 14th century which takes up the entire side of a cathedral wall. It contained an astronomical calendar, automata depicting animals, saints and the life of Christ. The mechanical rooster of Strasbourg clock was active from 1352 to 1789.[44][45] The clock still functions to this day, but has undergone several restorations since its initial construction. The Prague astronomical clock was built in 1410, animated figures were added from the 17th century onwards.[46] Numerous clockwork automata were manufactured in the 16th century, principally by the goldsmiths of the Free Imperial Cities of central Europe. These wondrous devices found a home in the cabinet of curiosities or Wunderkammern of the princely courts of Europe.
+
+In 1454

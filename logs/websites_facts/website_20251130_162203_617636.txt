@@ -1,0 +1,15 @@
+URL: https://a26780310980.cdn.optimizely.com/client_storage/a26780310980.html
+Timestamp: 2025-11-30T16:22:03.618276
+Content Type: facts
+Content Length: 163 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close
+95d 0

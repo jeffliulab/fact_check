@@ -1,0 +1,15 @@
+URL: https://www.google.com/search?client=firefox-b-1-d&q=united+states+news
+Timestamp: 2025-11-30T16:12:35.955751
+Content Type: summary
+Content Length: 164 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close
+8000 0

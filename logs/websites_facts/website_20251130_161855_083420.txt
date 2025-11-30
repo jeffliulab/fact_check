@@ -1,0 +1,14 @@
+URL: https://aax-events-cell01-cf.us-east.aps.axp.amazon-adsystem.com/e/dtb/admi?b=JLXv4zNqH72sgo4TGSYQuhEAAAGa1qHKiAEAAAJYAQBhcHNfdHhuX2JpZDEgICBhcHNfdHhuX2ltcDEgICDosrby&rnd=7000407987561764537530961&pp=7h3ytc&p=tbpzpc&crid=24734047_gumgum
+Timestamp: 2025-11-30T16:18:55.083587
+Content Type: facts
+Content Length: 157 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close

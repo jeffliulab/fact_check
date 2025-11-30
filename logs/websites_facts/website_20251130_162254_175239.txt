@@ -1,0 +1,15 @@
+URL: https://usync.ingage.tech/?gdpr=&gdpr_consent=&us_privacy=&redirect=https%3A%2F%2Fs2s.t13.io%2Fsetuid%3Fbidder%3Dinsticator%26gdpr%3D%26gdpr_consent%3D%26us_privacy%3D%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D%24UID
+Timestamp: 2025-11-30T16:22:54.175737
+Content Type: facts
+Content Length: 163 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close
+1ffa0

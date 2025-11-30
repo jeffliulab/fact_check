@@ -1,0 +1,65 @@
+URL: https://en.wikipedia.org/wiki/Automaton
+Timestamp: 2025-11-30T16:26:39.182695
+Content Type: summary
+Content Length: 3000 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close
+Jump to content
+Main menu
+Search
+Donate
+Create account
+Log in
+Contents hide
+(Top)
+Etymology
+History
+Toggle History subsection
+Ancient
+Medieval
+Renaissance and early modern
+Modern
+Proposals
+Clocks
+See also
+Notes
+References
+Further reading
+External links
+Automaton
+40 languages
+Article
+Talk
+Read
+Edit
+View history
+Tools
+Appearance hide
+From Wikipedia, the free encyclopedia
+Not to be confused with automation as a process.
+This article is about a self-operating machine. For other uses, see Automaton (disambiguation). For Automata, see Automata (disambiguation).
+Pinocchio automaton
+
+An automaton (/ɔːˈtɒmətən/ ⓘ; pl.: automata or automatons) is a relatively self-operating machine, or control mechanism designed to automatically follow a sequence of operations, or respond to predetermined instructions.[1] Some automata, such as bellstrikers in mechanical clocks, are designed to give the illusion to the casual observer that they are operating under their own power or will, like a mechanical robot. The term has long been commonly associated with automated puppets that resemble moving humans or animals, built to impress and/or to entertain people.
+
+Animatronics are a modern type of automata with electronics, often used for the portrayal of characters or creatures in films and in theme park attractions.
+
+Etymology[edit]
+
+The word automaton is the latinization of the Ancient Greek automaton (αὐτόματον), which means "acting of one's own will". It was first used by Homer to describe an automatic door opening,[2] or automatic movement of wheeled tripods.[3] It is more often used to describe non-electronic moving machines, especially those that have been made to resemble human or animal actions, such as the jacks on old public striking clocks, or the cuckoo and any other animated figures on a cuckoo clock.
+
+History[edit]
+Ancient[edit]
+The book About automata by Hero of Alexandria (1589)
+
+There are many examples of automata in Greek mythology: Hephaestus created automata for his workshop;[4][5] Talos was an artificial man of bronze; King Alkinous of the Phaiakians employed gold and silver watchdogs.[6][7] According to Aristotle, Daedalus used quicksilver to make his wooden statue of Aphrodite move.[8][9] In other Greek legends he used quicksilver to install voice in his moving statues.
+
+The automata in the Hellenistic world were intended as tools, toys, religious spectacles, or prototypes for demonstrating basic scientific principles. Numerous water-powered automata were built by Ktesibios, a Greek inventor and the first head of the Great Library of Alexandria; for example, he "used water to sound a whistle and make a model owl move. He had invented the world's first 'cuckoo clock'".[a] This tradition continued in Alexandria with inventors such as the Greek mathematician Hero of Alexandria (sometimes known as H

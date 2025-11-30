@@ -1,8 +1,0 @@
-{
-  "timestamp": "2025-11-27T14:49:25.325317",
-  "url": "https://en.wikipedia.org/wiki/ISO_3166-1",
-  "content_background": "[AI]\nSummary and Facts Check\n\nISO 3166-1 is an international standard that defines codes for countries, dependent territories, and geographical areas. It includes three sets of codes: alpha-2 (two-letter codes), alpha-3 (three-letter codes), and numeric (three-digit codes). Established in 1974 and expanded in 1997, these codes facilitate international communication and trade. While widely adopted, ISO 3166-1 is not the only standard for country codes, as other systems may differ. The standard is",
-  "feedback_content": "ISO is a standard",
-  "feedback_type": "suspicious_fact",
-  "feedback_prove": "This is suspecious since I don't know this one."
-}

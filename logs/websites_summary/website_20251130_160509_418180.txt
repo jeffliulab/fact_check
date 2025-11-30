@@ -1,0 +1,77 @@
+URL: https://en.wikipedia.org/wiki/Chess_master
+Timestamp: 2025-11-30T16:05:09.418449
+Content Type: summary
+Content Length: 3000 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close
+Jump to content
+Main menu
+Search
+Donate
+Create account
+Log in
+Contents hide
+(Top)
+Over-the-board chess
+Toggle Over-the-board chess subsection
+Early use of the master title
+FIDE titles
+National titles
+Soviet Union
+United States
+Expert
+Master
+Life Master
+Canada
+England
+Ireland
+Australia
+New Zealand
+Dominican Republic
+Chess compositions
+Toggle Chess compositions subsection
+Composers
+Solvers
+Judges
+Correspondence chess
+See also
+References
+Chess title
+20 languages
+Article
+Talk
+Read
+Edit
+View history
+Tools
+Appearance hide
+From Wikipedia, the free encyclopedia
+(Redirected from Chess master)
+"Chess master" redirects here. For the Ubisoft application, see Chessmaster. For the Chinese novel by Ah Cheng, see The Chess Master.
+Grandmaster Garry Kasparov (2007)
+
+A chess title is a title regulated by a chess governing body and bestowed upon players based on their performance and rank. Such titles are usually granted for life. The international chess governing body FIDE grants several titles, the most prestigious of which is Grandmaster; many national chess federations also grant titles such as National Master.[1] More broadly, the term "master" can refer to any highly skilled chess player.
+
+Over-the-board chess[edit]
+
+In general, a chess master is a player of such skill that they can usually beat most amateurs. Among chess players, the term is often abbreviated to master.
+
+The establishment of the world chess body, Fédération Internationale des Échecs (FIDE), saw the creation of titles superior to the "national master" titles. In 1950, FIDE created the titles "Grandmaster" and "International Master", the requirements for which were increasingly formalized over the years. In 1978, FIDE created the lesser title of "FIDE Master".
+
+Early use of the master title[edit]
+
+From the beginning of recorded chess, to the establishment of the first chess organizations, the term master was applied informally, being simply a matter of popular acclaim. Strong players demonstrated their strength in play, and gained the informal reputation of being chess masters.
+
+As chess became more widespread in the latter half of the 19th century, the term began to be given out by organizations. One of the most prestigious events of the time was the DSB Congress, first organised by the Deutscher Schachbund (German Chess Federation) in 1876. The DSB's standard for the title of Master was the Meisterdrittel, i.e. to win at least one third of the games in the premiere tournament at a DSB Congress. The winner of the Hauptturnier or "reserve" event was entitled to compete in the premiere event in the next congress, with a chance to achieve the Meisterdrittel.[2]
+
+FIDE titles[edit]
+Main article: FIDE titles
+Grandmaster (GM) is the highest title a chess player can attain. The usual way for a player to qualify for the Grandmaster title is by ac

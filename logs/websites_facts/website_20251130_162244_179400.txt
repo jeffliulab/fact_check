@@ -1,0 +1,14 @@
+URL: https://rtb.gumgum.com/usync/16112?gdpr=0&gdpr_consent=&r=https%3A%2F%2Fcs.yellowblue.io%2Fcs%3Faid%3D11616%26id%3D
+Timestamp: 2025-11-30T16:22:44.179697
+Content Type: facts
+Content Length: 157 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close

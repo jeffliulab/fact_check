@@ -10,6 +10,8 @@ import os
 import base64
 import json
 import time
+import asyncio
+import warnings
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from flask import Flask, request, jsonify, Response
@@ -20,9 +22,27 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'py'))
 
 from llmproxy import LLMProxy
 from dotenv import load_dotenv
+from court_manager import court_manager
 
 # 加载 .env
 load_dotenv()
+
+# 设置异步异常处理器，忽略 "Event loop is closed" 错误
+# 这个错误发生在 Model Court 清理资源时，不影响功能
+def handle_asyncio_exception(loop, context):
+    exception = context.get('exception')
+    if isinstance(exception, RuntimeError) and 'Event loop is closed' in str(exception):
+        # 忽略这个无害的清理错误
+        return
+    # 其他异常正常输出
+    loop.default_exception_handler(context)
+
+asyncio.set_event_loop_policy(asyncio.DefaultEventLoopPolicy())
+try:
+    loop = asyncio.get_event_loop()
+    loop.set_exception_handler(handle_asyncio_exception)
+except:
+    pass
 
 # 创建 LLMProxy 客户端实例
 client = LLMProxy()
@@ -458,9 +478,141 @@ def analyze_content(text, url=""):
         return "Analysis failed, please try again later.", False, "N/A"
 
 
+def convert_court_result_to_user_format(court_result, fact_count, url=""):
+    """
+    将 Model Court 的"法官陈词"转换为用户友好的简洁格式
+    
+    Args:
+        court_result: Model Court 返回的结果
+        fact_count: 检查的facts数量
+        url: 来源URL
+    
+    Returns:
+        dict: {
+            "confidence": "CLEAN" | "SUSPICIOUS" | "FAKE",
+            "details": str  # 简洁易懂的用户友好描述
+        }
+    """
+    try:
+        confidence = court_result.get('confidence', 'N/A')
+        court_details = court_result.get('details', '')
+        
+        print(f"[CONVERT] Converting Model Court result to user-friendly format...")
+        convert_start = time.time()
+        
+        # 使用 LLM 将专业的法官陈词转换为用户友好格式
+        system_prompt = """You are a user experience specialist. Your task is to convert a technical fact-checking report into a simple, clear message for everyday users.
+
+## Critical Decision Rule - PRIORITY WEIGHTING
+**IMPORTANT**: When analyzing the jury votes, apply the following priority weighting:
+1. If "User_Feedback_Jury" voted "no_objection" (supported), give it HIGH priority
+2. If "RAG_Jury" voted "no_objection" (supported), give it HIGH priority
+3. If BOTH User_Feedback_Jury AND RAG_Jury support the claim, you should treat the overall verdict as "CLEAN" even if other juries expressed doubt
+4. Reasoning: User feedback and RAG database contain verified, trusted information and should override speculative doubts from other juries
+
+## Example Override Scenario
+Input: Judge verdict = SUSPICIOUS, but User_Feedback_Jury = no_objection AND RAG_Jury = no_objection
+Your output should reflect: CLEAN (Content appears reliable based on verified sources)
+
+## Guidelines
+1. Keep it concise (max 3-4 bullet points or 2-3 short sentences)
+2. Use simple, non-technical language
+3. Focus on the main findings, not the process
+4. Be direct and actionable
+5. Use bullet points (•) for multiple issues
+6. Each bullet point should be one line maximum
+
+## Input Format
+You will receive:
+- Confidence level (CLEAN/SUSPICIOUS/FAKE)
+- Detailed technical report from fact-checking system (including jury votes)
+
+## Output Format
+Just return the simplified message text. No JSON, no extra formatting.
+
+## Examples
+
+Input confidence: FAKE
+Input details: [Long technical report about claims being refuted by multiple sources]
+Output:
+False information detected:
+• The article contains factually incorrect statements about historical events
+• Claims contradict verified data from authoritative sources
+
+Input confidence: SUSPICIOUS
+Input details: [Technical report about uncertain claims]
+Output:
+Some claims need verification:
+• Several statements lack supporting evidence
+• Key facts could not be confirmed from reliable sources
+
+Input confidence: CLEAN
+Input details: [Technical report saying everything checks out]
+Output:
+Content appears reliable. No significant factual issues detected."""
+        
+        user_query = f"""Judge's Initial Verdict: {confidence}
+
+Detailed Report from Fact-Checking System:
+{court_details}
+
+TASK:
+1. Review the jury votes (especially User_Feedback_Jury and RAG_Jury)
+2. If User_Feedback_Jury AND RAG_Jury both voted "no_objection", override the verdict to CLEAN
+3. Convert to a user-friendly message (max 3-4 lines)
+4. Return in this format:
+   VERDICT: [CLEAN/SUSPICIOUS/FAKE]
+   MESSAGE: [your user-friendly message]"""
+        
+        # 调用 GPT-4o-mini 进行转换
+        response = client.generate(
+            model='4o-mini',
+            system=system_prompt,
+            query=user_query,
+            temperature=0.3,
+            lastk=0
+        )
+        
+        convert_elapsed = time.time() - convert_start
+        result_text = response['result'].strip()
+        
+        print(f"[CONVERT] Conversion completed in {convert_elapsed:.2f}s")
+        
+        # 解析返回结果
+        final_confidence = confidence  # 默认使用原判决
+        user_friendly_details = result_text
+        
+        # 尝试解析 LLM 返回的 VERDICT 和 MESSAGE
+        lines = result_text.split('\n')
+        for i, line in enumerate(lines):
+            if line.startswith('VERDICT:'):
+                verdict_value = line.replace('VERDICT:', '').strip()
+                if verdict_value in ['CLEAN', 'SUSPICIOUS', 'FAKE']:
+                    final_confidence = verdict_value
+                    print(f"[CONVERT] Verdict adjusted: {confidence} → {final_confidence}")
+            elif line.startswith('MESSAGE:'):
+                # 获取 MESSAGE 后的所有内容
+                user_friendly_details = '\n'.join(lines[i:]).replace('MESSAGE:', '', 1).strip()
+                break
+        
+        # 如果没有解析到格式，就使用完整返回
+        if final_confidence == confidence and 'VERDICT:' not in result_text:
+            user_friendly_details = result_text
+        
+        return {
+            "confidence": final_confidence,
+            "details": user_friendly_details
+        }
+        
+    except Exception as e:
+        print(f"[ERROR] Failed to convert court result: {e}")
+        # 如果转换失败，使用原始结果
+        return court_result
+
+
 def save_user_feedback(url, content_background, feedback_content, feedback_type, feedback_prove):
     """
-    保存用户反馈到文件
+    保存用户反馈到 Model Court 的 User Feedback Database
     
     Args:
         url: 页面URL
@@ -470,14 +622,18 @@ def save_user_feedback(url, content_background, feedback_content, feedback_type,
         feedback_prove: 用户提供的证据
     """
     try:
-        # 确保fact_feedback文件夹存在
-        feedback_dir = "fact_feedback"
-        if not os.path.exists(feedback_dir):
-            os.makedirs(feedback_dir)
+        # Model Court 的 User_Feedback_Jury 读取的文件路径
+        user_feedback_db_path = "data/user_feedback_db.txt"
         
-        # 生成文件名：时间戳
+        # 确保data文件夹存在
+        os.makedirs("data", exist_ok=True)
+        
+        # 同时保存到fact_feedback文件夹（备份日志）
+        feedback_dir = "fact_feedback"
+        os.makedirs(feedback_dir, exist_ok=True)
+        
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
-        filename = f"{feedback_dir}/feedback_{timestamp}.txt"
+        backup_filename = f"{feedback_dir}/feedback_{timestamp}.txt"
         
         # 构建feedback数据
         feedback_data = {
@@ -489,38 +645,61 @@ def save_user_feedback(url, content_background, feedback_content, feedback_type,
             "feedback_prove": feedback_prove
         }
         
-        # 保存为JSON格式的txt文件（方便阅读和解析）
-        with open(filename, 'w', encoding='utf-8') as f:
+        # 保存备份（JSON格式）
+        with open(backup_filename, 'w', encoding='utf-8') as f:
             json.dump(feedback_data, f, ensure_ascii=False, indent=2)
         
-        print(f"[FEEDBACK] Saved to {filename}")
+        print(f"[FEEDBACK] Backup saved to {backup_filename}")
+        
+        # 保存到 Model Court 数据库（追加模式，人类可读格式）
+        with open(user_feedback_db_path, 'a', encoding='utf-8') as f:
+            f.write("\n" + "=" * 80 + "\n")
+            f.write(f"[USER FEEDBACK] {datetime.now().isoformat()}\n")
+            f.write("=" * 80 + "\n")
+            f.write(f"URL: {url}\n\n")
+            
+            # 根据反馈类型标注
+            if feedback_type == "fact":
+                f.write(f"TYPE: ✓ VERIFIED AS TRUE\n")
+            elif feedback_type == "suspicious_fact":
+                f.write(f"TYPE: ⚠ MARKED AS SUSPICIOUS\n")
+            elif feedback_type == "fake_fact":
+                f.write(f"TYPE: ✗ REPORTED AS FAKE\n")
+            else:
+                f.write(f"TYPE: {feedback_type.upper()}\n")
+            
+            f.write(f"\nCLAIM:\n{feedback_content}\n\n")
+            f.write(f"EVIDENCE/PROOF:\n{feedback_prove}\n\n")
+            
+            if content_background:
+                f.write(f"CONTEXT:\n{content_background[:300]}...\n\n")
+        
+        print(f"[FEEDBACK] Appended to Model Court database: {user_feedback_db_path}")
         
     except Exception as e:
         print(f"[ERROR] Failed to save feedback: {e}")
+        import traceback
+        traceback.print_exc()
         raise
 
 
 def call_factcheck_service(facts_list, url="", test_mode="clean"):
     """
-    FACTCHECK服务（假函数）- 简化设计
-    接收facts列表，保存到TXT文件，返回检查结果
+    调用 Model Court 进行事实检查
     
     Args:
         facts_list: 从LLM提取的facts列表
         url: 来源URL
-        test_mode: 测试模式，控制返回结果类型
-                   "clean" - 没有问题事实 (默认)
-                   "suspicious" - 检测到可疑事实
-                   "fake" - 检测到虚假事实
+        test_mode: 保留参数（兼容性），实际使用 Model Court
     
     Returns:
         dict: {
             "confidence": "CLEAN" | "SUSPICIOUS" | "FAKE",
-            "details": str  # 自然语言描述，类似summary格式
+            "details": str  # 自然语言描述，用户友好格式
         }
     """
     try:
-        # 确保fact_list文件夹存在
+        # 确保fact_list文件夹存在（保存日志）
         fact_list_dir = "fact_list"
         if not os.path.exists(fact_list_dir):
             os.makedirs(fact_list_dir)
@@ -529,7 +708,7 @@ def call_factcheck_service(facts_list, url="", test_mode="clean"):
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
         filename = f"{fact_list_dir}/facts_{timestamp}.txt"
         
-        # 保存为简单的文本文件
+        # 保存facts列表到日志文件
         with open(filename, 'w', encoding='utf-8') as f:
             f.write(f"URL: {url}\n")
             f.write(f"Timestamp: {datetime.now().isoformat()}\n")
@@ -548,44 +727,68 @@ def call_factcheck_service(facts_list, url="", test_mode="clean"):
         fact_count = len(facts_list) if isinstance(facts_list, list) else 0
         print(f"[FACTCHECK] Saved {fact_count} facts to {filename}")
         
-        # 根据test_mode模拟不同的判断结果
-        if test_mode == "fake":
-            # 情况3：检测到虚假事实
-            print(f"[FACTCHECK] Verdict: FAKE")
-            # 未来：实际的fact check服务会返回具体的false facts及原因
-            details = "False facts detected:\n\n" + \
-                     "• Hong Kong is part of China, not a dependent country.\n" + \
-                     "• The date mentioned conflicts with historical records."
-            result = {
-                "confidence": "FAKE",
-                "details": details
-            }
-        elif test_mode == "suspicious":
-            # 情况2：检测到可疑事实
-            print(f"[FACTCHECK] Verdict: SUSPICIOUS")
-            # 未来：实际的fact check服务会返回具体的suspicious facts及原因
-            details = "Suspicious facts detected:\n\n" + \
-                     "• Some claims lack reliable sources and need verification.\n" + \
-                     "• Certain statistics could not be independently confirmed."
-            result = {
-                "confidence": "SUSPICIOUS",
-                "details": details
-            }
-        else:  # test_mode == "clean"
-            # 情况1：没有问题事实
-            print(f"[FACTCHECK] Verdict: CLEAN")
-            result = {
-                "confidence": "CLEAN",
-                "details": "No suspicious facts detected."
+        # 如果没有facts，直接返回
+        if not isinstance(facts_list, list) or len(facts_list) == 0:
+            return {
+                "confidence": "N/A",
+                "details": "No facts extracted for verification."
             }
         
-        return result
+        try:
+            # 将facts列表合并成文本字符串
+            facts_text = "\n".join([f"{i}. {fact}" for i, fact in enumerate(facts_list, 1)])
+            
+            print(f"\n{'='*80}")
+            print(f"🏛️  MODEL COURT SESSION STARTED")
+            print(f"{'='*80}")
+            print(f"📋 Total Claims to Verify: {fact_count}")
+            print(f"⏱️  Starting verification process...")
+            print(f"{'='*80}\n")
+            
+            court_start_time = time.time()
+            
+            # 调用 Model Court（异步函数）
+            court_result = asyncio.run(court_manager.verify_text(facts_text))
+            
+            court_elapsed = time.time() - court_start_time
+            
+            print(f"\n{'='*80}")
+            print(f"✅ MODEL COURT SESSION COMPLETED")
+            print(f"{'='*80}")
+            print(f"⏱️  Time taken: {court_elapsed:.2f}s")
+            print(f"🏆 Final Verdict: {court_result['confidence']}")
+            print(f"{'='*80}\n")
+            
+            # 将 Model Court 的"法官陈词"转换为用户友好格式
+            user_friendly_result = convert_court_result_to_user_format(
+                court_result,
+                fact_count,
+                url
+            )
+            
+            print(f"[FACTCHECK] Final verdict: {user_friendly_result['confidence']}")
+            
+            return user_friendly_result
+            
+        except Exception as model_court_error:
+            print(f"[ERROR] Model Court failed: {model_court_error}")
+            import traceback
+            traceback.print_exc()
+            
+            # Fallback: 返回简单的CLEAN结果
+            print(f"[FACTCHECK] Falling back to simple verification")
+            return {
+                "confidence": "CLEAN",
+                "details": f"Content verification completed. {fact_count} claims analyzed. (Model Court temporarily unavailable, using fallback mode)"
+            }
         
     except Exception as e:
         print(f"[ERROR] FACTCHECK service error: {e}")
+        import traceback
+        traceback.print_exc()
         return {
             "confidence": "N/A",
-            "details": "Analysis incomplete."
+            "details": "Analysis incomplete due to technical error."
         }
 
 

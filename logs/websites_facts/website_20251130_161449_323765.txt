@@ -1,0 +1,14 @@
+URL: https://e1.emxdgt.com/umcheck?&if=true&apnxid=8933459348915622704&redirect=https://s.amazon-adsystem.com/ecm3?ex=emxdgt.com&id=$EMXUID&b64_redirect=aHR0cHM6Ly9zLmFtYXpvbi1hZHN5c3RlbS5jb20vZWNtMz9leD1lbXhkZ3QuY29tJmlkPSRFTVhVSUQ=
+Timestamp: 2025-11-30T16:14:49.323894
+Content Type: facts
+Content Length: 157 chars
+================================================================================
+
+[AI]
+Summary and Facts Check
+
+Generating AI analysis...
+
+Powered by Tufts CS112 Team LLM Proxy | Fact Check is a free and open-source service!
+Feedback
+Close
