@@ -1,6 +1,8 @@
 # log files
 fact_feedback
 fact_list
+vector_store
+logs
 
 # key files
 *.key
