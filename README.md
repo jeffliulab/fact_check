@@ -10,18 +10,10 @@ Furthermore, this project includes a **user feedback function, making the overal
 
 ## Introduction
 
+The whole system can be distinguished into the following flow chart:
+
 ![Project Descriptions](docs/server_description.png)
 
-The user interaction module is now in discussion and design stage.
-
-The plan is to allow users to click "Fake" or "Real", and maintain a simple community of fact checks.
-
-But the fact check should based on the content or the website? This is still in discussion and will update in later versions.
-
-Core Modules:
-
-- HTTPS Proxy: proxy.c
-- Web
 
 ## Quick Start
 
@@ -150,3 +142,12 @@ Now, let's refresh the page again.
 ![alt text](docs/feedback4.png)
 
 This webpage became CLEAN. We gave higher weight to The Archivist Jury (querying RAG) and The Community Watch Jury (querying user feedback). For example, if a jury gives a decision that is not no_objection, but The Archivist Jury and The Community Watch Jury find no problems after reviewing it, we will adjust the final result to CLEAN.
+
+## Future Work
+
+This project has many aspects worth exploring further, such as:
+
+* Can a more scientific and precise fact-checking standard be found?
+* How to objectively evaluate the performance of a fact-checking system?
+* How to objectively evaluate the performance of a model court?
+* How to design the configuration of a model court?
