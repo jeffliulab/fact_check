@@ -923,7 +923,7 @@ def inject_async_summary_script(html_content, page_url):
                             </div>
                             ${{factCheckHtml}}
                             <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; font-size: 13px; color: #666; margin-top: 15px;">
-                                <span><strong>Powered by Tufts CS112 Team LLM Proxy</strong> | Fact Check is a free and open-source service!</span>
+                                <span><strong>Powered by LLMs.</strong> | Fact Check is a free and open-source service!</span>
                                 <div style="display: flex; gap: 10px;">
                                     <button onclick="openFeedbackModal()" style="background: #3498db; color: white; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer; font-size: 14px; font-weight: 600;">Feedback</button>
                                     <button onclick="document.getElementById('cs112-ai-summary-banner').remove()" style="background: #95a5a6; color: white; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer; font-size: 14px; font-weight: 600;">Close</button>
